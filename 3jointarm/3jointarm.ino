@@ -5,7 +5,7 @@ Servo s2;
 Servo s3;
 Servo s4;
 int joint1 = A0;
-int joint2 = A2;
+int joint2 = A4;
 int joint3 = A1;
 int joint4 = A3;
 int angle1;
