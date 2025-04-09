@@ -1,12 +1,12 @@
-int b1 = 12;
+int b1 = 11;
 int b2 = 10;
-int b3 = 8;
-int b4 = 6;
-int L1 = 13;
-int L2 = 11;
-int L3 = 9;
-int L4 = 7;
-int bz = 5;
+int b3 = 4;
+int b4 = 2;
+int L1 = 7;
+int L2 = 6;
+int L3 = 5;
+int L4 = 3;
+int bz = 12;
 int lvl = 1;
 int speed = 0;
 int increment = 20;
@@ -33,7 +33,7 @@ void setup() {
 }
 
 void loop() {
-  randomSeed(analogRead(A3));
+  randomSeed(analogRead(A5));
   for (int k = 0; k < lvl-1; k++){
     digitalWrite(leds[seq[k]], HIGH);
     tone(bz, tones[seq[k]]);
